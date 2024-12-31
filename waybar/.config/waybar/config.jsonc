@@ -50,9 +50,10 @@
   ],
 
   "modules-right": [
-    "custom/media",         // media info
+    "custom/left1",
+    "custom/wayves",
 
-    "custom/left6",
+    "custom/left2",
     "pulseaudio",           // output device
 
     "custom/left7",
@@ -66,6 +67,11 @@
   ],
 
   // === Modules ===
+
+  "custom/wayves": {
+    "format": "{}",
+    "exec": "python ~/personal/wayves/wayves.py -o cava -i cava -a cava"
+  },
 
   "custom/ws": {
     "format": "  ",

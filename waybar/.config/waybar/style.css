@@ -80,6 +80,7 @@ tooltip label {
 #pulseaudio,
 #custom-backlight,
 #battery,
+#custom-wayves,
 #custom-power {
   opacity: 1;
   color: @module-fg;
@@ -291,8 +292,12 @@ tooltip label {
 
 /* == Output Device == */
 
+#custom-wayves {
+  padding-left: 3px;
+}
+
 #custom-left6 {
-  color: @pulseaudio;
+  color: @time;
   background: @main-bg;
   padding-left: 3px;
 }
@@ -365,4 +370,8 @@ tooltip label {
   background: @hover-bg;
   text-shadow: none;
   box-shadow: none;
+}
+#custom-cava_mviz {
+  color: @main-bg;
+  font-size: 12.2pt;
 }
