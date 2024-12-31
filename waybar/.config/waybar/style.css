@@ -2,7 +2,7 @@
   font-family: "JetBrainsMono Nerd Font";
   font-weight: bold;
   font-size: 12px;
-  min-height: 10;
+  min-height: 0;
   padding: 0;
   border: none;
   margin: 0;
@@ -299,6 +299,7 @@ tooltip label {
 /* == Output Device == */
 
 #custom-wayves {
+  background: @tray;
   padding-left: 3px;
 }
 

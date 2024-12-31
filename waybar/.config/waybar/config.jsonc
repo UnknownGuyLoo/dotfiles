@@ -52,7 +52,8 @@
   "modules-right": [
     "custom/left1",
     "custom/wayves",
-
+    "custom/right5",
+    "custom/paddc",
     "custom/left2",
     "pulseaudio",           // output device
 

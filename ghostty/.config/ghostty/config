@@ -1,6 +1,7 @@
 theme = /usr/share/ghostty/themes/catppuccin-mocha
 background-opacity = 0.9
 background-blur-radius = 15
+background = 1e1e2e
 
 cursor-style = underline
 cursor-style-blink = false
@@ -9,3 +10,14 @@ shell-integration-features = no-cursor
 gtk-titlebar = false
 
 bold-is-bright = true
+
+# Keybinds
+
+keybind = ctrl+s>r=reload_config
+keybind = ctrl+s>x=close_surface
+keybind = ctrl+s>n=new_window
+
+# Tabs related
+keybind = alt+w>n=new_tab
+keybind = alt+w>l=next_tab
+keybind = alt+w>a=previous_tab
