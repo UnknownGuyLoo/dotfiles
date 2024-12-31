@@ -1,7 +1,7 @@
 {
   "layer": "top",
   "position": "top",
-  // "height": 24, // Uncomment to set a fixed height
+  "height": 20, // Uncomment to set a fixed height
   // Note: The layout may break if height is greater than 24
   "mode": "dock",
   "reload_style_on_change": true,
@@ -230,8 +230,8 @@
     "return-type": "json",
     "tooltip": true,
     "interval": 5,
-    "min-length": 6,
-    "max-length": 6
+    "min-length": 8,
+    "max-length": 8
   },
 
   "idle_inhibitor": {
@@ -244,7 +244,7 @@
   },
 
   "clock#time": {
-    "format": "󱑂 {:%H:%M}",
+    "format": "󱑂 {:%I:%M}",
     "tooltip": true,
     "tooltip-format": "Standard Time: {:%I:%M %p}",
     "min-length": 8,

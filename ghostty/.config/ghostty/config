@@ -1,0 +1,11 @@
+theme = /usr/share/ghostty/themes/catppuccin-mocha
+background-opacity = 0.9
+background-blur-radius = 15
+
+cursor-style = underline
+cursor-style-blink = false
+shell-integration-features = no-cursor
+
+gtk-titlebar = false
+
+bold-is-bright = true
