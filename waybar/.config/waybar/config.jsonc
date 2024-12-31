@@ -60,7 +60,7 @@
     "custom/backlight",     // brightness
 
     "custom/left8",
-    "battery",              // battery
+    "tray",              // battery
 
     "custom/leftin2",
     "custom/power"          // power button
@@ -90,6 +90,10 @@
       "4": [],
       "5": []
     }
+  },
+  "tray": {
+    "icon-size": 20,
+    "spaceing": 10
   },
 
   "hyprland/window": {
