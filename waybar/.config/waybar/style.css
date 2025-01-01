@@ -50,14 +50,14 @@ tooltip label {
   transition: none;
 }
 #workspaces button:hover {
-  color: @hover-fg;
-  background: @hover-bg;
+  color: @main-bg;
+  background: #f9e2af;
   text-shadow: none;
   box-shadow: none;
 }
 #workspaces button.active {
   color: @active-fg;
-  background: @active-bg;
+  background: #eba0ac;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.4);
   margin: 2px;
@@ -68,7 +68,6 @@ tooltip label {
 
 #custom-ws,
 #workspaces,
-#window,
 #custom-cpuinfo,
 #memory,
 #custom-cpu,
@@ -85,6 +84,13 @@ tooltip label {
 #custom-power {
   opacity: 1;
   color: @module-fg;
+  margin-bottom: 0;
+  padding: 0 4px;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+}
+#window {
+  opacity: 1;
+  color: @power;
   margin-bottom: 0;
   padding: 0 4px;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
@@ -115,20 +121,21 @@ tooltip label {
 /* === Modules === */
 
 #tray {
-  background: @battery;
+  background: @cpu;
   padding-left: 2px;
 }
 
 /* == Window Icon == */
 
 #custom-ws {
+  color: #f38ba8;
   background: @main-bg;
 }
 
 /* == Workspaces == */
 
 #custom-left1 {
-  color: @workspaces;
+  color: @cpuinfo;
   background: @main-bg;
   padding-left: 2px;
 }
@@ -333,7 +340,7 @@ tooltip label {
 
 
 #custom-left8 {
-  color: @battery;
+  color: @cpu;
   background: @backlight;
   padding-left: 2px;
 }
@@ -360,8 +367,8 @@ tooltip label {
 
 
 #custom-leftin2 {
-  color: @battery;
-  background: @main-bg;
+  color: @cpu;
+  background: @main-bag;
   font-size: 12.2pt;
   margin-bottom: -2px;
 }

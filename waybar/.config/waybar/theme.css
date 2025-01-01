@@ -21,22 +21,22 @@
 
 /* Module Colors */
 
-@define-color module-fg       #f5e0dc;
-@define-color workspaces      #181825;
+@define-color module-fg       #000000;
+@define-color workspaces      #f38ba8;
 
-@define-color cpuinfo         #181825;
-@define-color memory          #1e1e2e;
-@define-color cpu             #313244;
+@define-color cpuinfo         #f38ba8;
+@define-color memory          #cba6f7;
+@define-color cpu             #f5c2e7;
 @define-color distro-fg       #000000;
-@define-color distro-bg       #9399b2;
-@define-color time            #313244;
-@define-color date            #1e1e2e;
-@define-color tray            #181825;
+@define-color distro-bg       #89b4fa;
+@define-color time            #f5c2e7;
+@define-color date            #cba6f7;
+@define-color tray            #f38ba8;
 
-@define-color pulseaudio      #181825;
-@define-color backlight       #1e1e2e;
+@define-color pulseaudio      #f38ba8;
+@define-color backlight       #cba6f7;
 @define-color battery         #313244;
-@define-color power           #9399b2;
+@define-color power           #cdd6f4;
 
 /* State Colors */
 
