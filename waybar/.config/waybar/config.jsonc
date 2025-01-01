@@ -50,15 +50,13 @@
   ],
 
   "modules-right": [
-    "custom/left1",
-    "custom/wayves",
-    "custom/right5",
     "custom/paddc",
     "custom/left2",
     "pulseaudio",           // output device
 
     "custom/left7",
-    "custom/backlight",     // brightness
+    "custom/wayves",
+    //"custom/backlight",     // brightness
 
     "custom/left8",
     "tray",              // battery

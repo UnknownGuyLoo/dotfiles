@@ -306,7 +306,7 @@ tooltip label {
 /* == Output Device == */
 
 #custom-wayves {
-  background: @tray;
+  background: @memory;
   padding-left: 3px;
 }
 
