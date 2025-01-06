@@ -21,7 +21,6 @@
   ],
 
   "modules-center": [
-    "custom/paddc",
     "custom/left2",
     "custom/cpuinfo",       // temperature
 
@@ -50,7 +49,6 @@
   ],
 
   "modules-right": [
-    "custom/paddc",
     "custom/left2",
     "pulseaudio",           // output device
 
