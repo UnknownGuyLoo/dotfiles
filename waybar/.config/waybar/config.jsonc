@@ -1,7 +1,7 @@
 {
   "layer": "top",
   "position": "top",
-  "height": 20, // Uncomment to set a fixed height
+  "height": 1, // Uncomment to set a fixed height
   // Note: The layout may break if height is greater than 24
   "mode": "dock",
   "reload_style_on_change": true,
@@ -208,6 +208,8 @@
   },
 
   "memory": {
+    "min-length": 8,
+    "max-length": 8,
     "states": {
       "warning": 75,
       "critical": 90
@@ -244,7 +246,7 @@
     "format": "󱑂 {:%I:%M}",
     "tooltip": true,
     "tooltip-format": "Standard Time: {:%I:%M %p}",
-    "min-length": 8,
+    "min-length": 6,
     "max-length": 8
   },
 
