@@ -16,53 +16,54 @@
         "separator": " "
     },
     "modules": [
-	"break",
-	"break",
-	{
+	    "break",
+	    "break",
+	      {
+            "key": " ",
             "type": "title",
-            "keyWidth": 10
+            "format": "{user-name}",
+            "keyColor": "31"
         },
-        "break",
         {
             "type": "os",
             "key": " ",
-            "keyColor": "33",  // = color3
+            "keyColor": "34",  // = color3
         },
         {
             "type": "kernel",
             "key": " ",
-            "keyColor": "33",
+            "keyColor": "36",
         },
         {
             "type": "packages",
             "format": "{} (pacman)",
             "key": " ",
-            "keyColor": "33",  
+            "keyColor": "32",  
         },
         {
             "type": "shell",
             "key": " ",
-            "keyColor": "33", 
+            "keyColor": "31", 
         },
         {
             "type": "terminal",
             "key": " ",
-            "keyColor": "33", 
+            "keyColor": "32", 
         },
         {
             "type": "wm",
             "key": " ",
-            "keyColor": "33", 
+            "keyColor": "36", 
         },
         {
             "type": "uptime",
             "key": " ",
-            "keyColor": "33", 
+            "keyColor": "34", 
         },
         {
             "type": "media",
             "key": "󰝚 ",
-            "keyColor": "33", 
+            "keyColor": "31", 
         },
         "break",
         "colors",
