@@ -80,9 +80,11 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  archlinux
   zsh-autosuggestions
   zsh-syntax-highlighting
-  zsh-autocomplete
+  #zsh-autocomplete
+  you-should-use
   )
 
 source $ZSH/oh-my-zsh.sh

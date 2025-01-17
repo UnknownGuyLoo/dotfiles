@@ -113,6 +113,10 @@
       "sejjy@archlinux:(.*)": "  Terminal",
       "(.*)sejjy@archlinux:~": "  Terminal",
 
+      // == Lutris ==
+      
+      "Lutris": "<span foreground='#fab387'> </span> Lutris",
+
       // == Browser ==
 
       "(.*)Mozilla Firefox": 
