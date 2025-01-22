@@ -80,11 +80,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  archlinux
   zsh-autosuggestions
   zsh-syntax-highlighting
-  #zsh-autocomplete
-  you-should-use
   )
 
 source $ZSH/oh-my-zsh.sh
@@ -118,6 +115,9 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias dot="cd ~/.dotfiles/"
+alias l="eza -a --icons=always"
+alias ls="eza --icons=always"
+alias vencord-update='sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"'
 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
