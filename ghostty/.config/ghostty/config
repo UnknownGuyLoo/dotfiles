@@ -21,3 +21,16 @@ keybind = ctrl+s>n=new_window
 keybind = alt+w>n=new_tab
 keybind = alt+w>l=next_tab
 keybind = alt+w>a=previous_tab
+
+# Split (single window)
+keybind = alt+i=new_split:up
+keybind = alt+l=new_split:right
+keybind = alt+k=new_split:down
+keybind = alt+j=new_split:left
+
+#switch window
+keybind = ctrl+i=goto_split:top
+keybind = ctrl+k=goto_split:bottom
+keybind = ctrl+l=goto_split:right
+keybind = ctrl+j=goto_split:left
+
