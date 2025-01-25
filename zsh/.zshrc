@@ -117,7 +117,7 @@ source $ZSH/oh-my-zsh.sh
 alias dot="cd ~/.dotfiles/"
 alias l="eza -a --icons=always"
 alias ls="eza --icons=always"
-alias vencord-update='sh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"'
+alias vencord-update="exec ~/.config/hypr/Scripts/discord_canary.sh"
 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.

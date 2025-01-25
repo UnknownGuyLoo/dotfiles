@@ -10,7 +10,8 @@
   // === Positions ===
 
   "modules-left": [
-    "custom/ws",            // window icon
+    "power-profiles-daemon",
+    "custom/paddw",// window icon
     "custom/left1",
 
     "hyprland/workspaces",  // workspaces
@@ -292,6 +293,17 @@
     "interval": 1,
     "min-length": 1,
     "max-length": 1
+  },
+  "power-profiles-daemon": {
+  "format": "{icon}",
+  "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+  "tooltip": true,
+  "format-icons": {
+    "default": "",
+    "performance": "",
+    "balanced": "",
+    "power-saver": ""
+    }
   },
 
   "bluetooth": {
