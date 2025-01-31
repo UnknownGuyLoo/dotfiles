@@ -24,6 +24,12 @@ window#waybar > box {
   margin: 2px;
 }
 
+/* === Power Profiles Daemon === */
+#power-profiles-daemon {
+  background: @main-bg;
+  color: @cpu;
+}
+
 /* === Tooltip === */
 
 tooltip {
