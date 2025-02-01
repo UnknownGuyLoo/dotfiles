@@ -56,14 +56,14 @@ tooltip label {
   transition: none;
 }
 #workspaces button:hover {
-  color: @main-bg;
-  background: #f9e2af;
+  color: @hover-fg;
+  background: @hover-bg;
   text-shadow: none;
   box-shadow: none;
 }
 #workspaces button.active {
   color: @active-fg;
-  background: #eba0ac;
+  background: @active-bg;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.4);
   margin: 2px;
@@ -141,15 +141,15 @@ tooltip label {
 /* == Workspaces == */
 
 #custom-left1 {
-  color: @cpuinfo;
+  color: @color1;
   background: @main-bg;
   padding-left: 2px;
 }
 #workspaces {
-  background: @workspaces;
+  background: @color1;
 }
 #custom-right1 {
-  color: @workspaces;
+  color: @color1;
   background: @main-bg;
   text-shadow: 3px 0 2px rgba(0, 0, 0, 0.4);
 }

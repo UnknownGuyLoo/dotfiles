@@ -1,0 +1,47 @@
+/* 
+  bg - background
+  fg - foreground
+  br - border
+*/
+
+/* Main Colors */
+
+@define-color main-fg         {{foreground}};
+@define-color main-bg         {{background}};
+@define-color main-br         {{cursor}};
+
+@define-color active-bg       {{background}};
+@define-color active-fg       {{foreground}};
+
+@define-color hover-bg        {{background}};
+@define-color hover-fg        {{foreground}};
+
+@define-color white           {{foreground}};
+@define-color black           {{background}};
+
+/* Module Colors */
+
+@define-color module-fg       {{foreground}};
+@define-color color1          {{color6}};
+
+@define-color cpuinfo         {{color6}};
+@define-color memory          {{color7}};
+@define-color cpu             {{color8}};
+@define-color distro-fg       {{foreground}};
+@define-color distro-bg       {{background}};
+@define-color time            {{color8}};
+@define-color date            {{color7}};
+@define-color tray            {{color6}};
+
+@define-color pulseaudio      {{color6}};
+@define-color backlight       {{color7}};
+@define-color battery         {{color9}};
+@define-color power           {{color10}};
+
+/* State Colors */
+
+@define-color good            {{color11}};
+@define-color warning         {{color12}};
+@define-color critical        {{color13}};
+@define-color full            {{color14}};
+@define-color charging        {{color15}};
