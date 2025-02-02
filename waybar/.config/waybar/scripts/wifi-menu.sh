@@ -4,7 +4,7 @@
 # GitHub: https://github.com/sejjy/mechabar
 
 # Rofi config
-config="$HOME/.config/rofi/wifi-menu.rasi"
+config="~/.local/share/rofi/themes/rounded-nord-dark.rasi"
 
 options=$(
   echo "Manual Entry"
