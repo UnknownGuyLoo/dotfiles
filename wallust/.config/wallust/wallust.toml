@@ -42,17 +42,17 @@ threshold = 11
 
 [templates]
 # NOTE: prefer '' over "" for paths, avoids escaping.
-cava.template = "colors-cava"
-cava.target = "~/.config/cava/config"
+#cava.template = "colors-cava"
+#cava.target = "~/.config/cava/config"
 
-kitty.template = 'colors-kitty.conf'
-kitty.target = '~/.config/kitty/current-theme.conf'
+#kitty.template = 'colors-kitty.conf'
+#kitty.target = '~/.config/kitty/current-theme.conf'
 
-waybar.template = 'theme.css'
-waybar.target = '~/.config/waybar/theme.css'
+#waybar.template = 'theme.css'
+#waybar.target = '~/.config/waybar/theme.css'
 
-anyrun.template = 'colors-anyrun.css'
-anyrun.target = '~/.config/anyrun/style.css'
+#anyrun.template = 'colors-anyrun.css'
+#anyrun.target = '~/.config/anyrun/style.css'
 # template: A relative path that points to a file where wallust.toml is located, usually at `~/.config/wallust/`.
 # target: Absolute path in which to place a file with generated templated values.
 # If one is a directory, the other one NEEDS to also be one, one line example below

@@ -8,7 +8,7 @@
   margin: 0;
 }
 
-@import "theme.css";
+@import "tokyonight.css";
 
 /* === Main Background === */
 
@@ -24,10 +24,12 @@ window#waybar > box {
   margin: 2px;
 }
 
+/* === Hyprland Window == */
+
 /* === Power Profiles Daemon === */
 #power-profiles-daemon {
   background: @main-bg;
-  color: @cpu;
+  color: @main-fg;
 }
 
 /* === Tooltip === */
@@ -96,10 +98,9 @@ tooltip label {
 }
 #window {
   opacity: 1;
-  color: @power;
+  color: @main-fg;
   margin-bottom: 0;
   padding: 0 4px;
-  text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
 }
 
 #custom-left1,

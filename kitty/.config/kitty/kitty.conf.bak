@@ -1,7 +1,7 @@
 # vim:fileencoding=utf-8:foldmethod=marker
 
 # BEGIN_KITTY_THEME
-# Base2Tone Suburb Dark
+# Catppuccin-Mocha
 include current-theme.conf
 # END_KITTY_THEME
 
@@ -2654,7 +2654,7 @@ include current-theme.conf
 
 
 # BEGIN_KITTY_FONTS
-font_family      family="JetBrainsMono Nerd Font"
+font_family      family="SF Mono"
 bold_font        auto
 italic_font      auto
 bold_italic_font auto

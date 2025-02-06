@@ -1,6 +1,6 @@
 *{
     all: unset; 
-    color: #646B80;
+    color: #a9b1d6;
     font-family: "JetBrainsMono Nerd Font";
     font-weight: bold;
 }
@@ -8,9 +8,9 @@
     background-color: transparent;
 }
 #entry{
-    background-color: #00000D;
+    background-color: #1a1b26;
     border-radius: 15px;
-    border: 3px solid #11111b;
+    border: 3px solid #3b4261;
     font-size: 16px;
     margin-top: 10px;
     padding: 1px 15px;
@@ -26,13 +26,13 @@
     font-weight: normal;
 }
 #match:selected {
-    background: #D4D8E1;
+    background: #3b4261;
     border-radius: 15px;
 }
 #plugin{
-    background-color: #00000D;
+    background-color: #1a1b26;
     border-radius: 15px;
-    border: 3px solid #11111b;
+    border: 3px solid #3b4261;
     margin-top:10px;
     padding: 10px 1px;
 }

@@ -1,0 +1,71 @@
+/* Tokyo Night Color Palette */
+@define-color background #1a1b26; /* Base background */
+@define-color foreground #a9b1d6; /* Base text color */
+@define-color selection #33467c; /* Selected item background */
+@define-color accent #7aa2f7; /* Accent color (blue) */
+@define-color border #3b4261; /* Border color */
+@define-color secondary #565f89; /* Secondary background */
+
+/* Main window */
+window {
+    background-color: @background;
+    color: @foreground;
+    border-radius: 12px;
+    border: 1px solid @border;
+}
+
+/* Search box */
+entry {
+    background-color: @secondary;
+    color: @foreground;
+    border-radius: 8px;
+    border: 1px solid @border;
+    padding: 8px;
+    font-size: 14px;
+}
+
+/* List of results */
+list {
+    background-color: @background;
+    color: @foreground;
+    border-radius: 8px;
+}
+
+/* Selected item in the list */
+list row:selected {
+    background-color: @selection;
+    color: @foreground;
+    border-radius: 8px;
+}
+
+/* Text in the selected item */
+list row:selected label {
+    color: @foreground;
+}
+
+/* Hover effect for list items */
+list row:hover {
+    background-color: @secondary;
+    border-radius: 8px;
+}
+
+/* Category headers (if applicable) */
+.category-label {
+    color: @accent;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* Scrollbar */
+scrollbar {
+    background-color: @background;
+}
+
+scrollbar slider {
+    background-color: @secondary;
+    border-radius: 8px;
+}
+
+scrollbar slider:hover {
+    background-color: @accent;
+}
