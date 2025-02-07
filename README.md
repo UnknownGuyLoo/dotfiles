@@ -2,6 +2,10 @@
 
 This repository contains my personalized configuration files (dotfiles) for setting up a personalized Hyprland environment in Arch (based) distro. The configurations are managed using GNU Stow for easy symlink management.
 
+## Screenshot(s)
+
+![My Setup](assets/screenshot1.png)
+
 ## Table of Contents
 
 - [Introduction](#introduction)

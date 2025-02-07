@@ -12,7 +12,7 @@ if [[ $update == "y" ]]; then
   sudo pacman -Syu --noconfirm
 fi
 # Example: Install necessary packages
-PACKAGES=("neovim" "git" "htop" "fzf" "rofi" "zsh" "kitty" "fastfetch" "hyprland" "cava" "waybar" "anyrun" "hyprlock" "pipewire" "blueez-utils" "brightnessctl" "pipewire-pulse" "python" "ttf-jetbrains-mono-nerd" "wireplumber")
+PACKAGES=("neovim" "git" "htop" "fzf" "rofi" "zsh" "kitty" "fastfetch" "hyprland" "waybar" "grim" "swww" "hyprlock" "pipewire" "bluez-utils" "brightnessctl" "pipewire-pulse" "python" "ttf-jetbrains-mono-nerd" "wireplumber")
 
 for pkg in "${PACKAGES[@]}"; do
   echo "Installing $pkg..."
@@ -28,8 +28,9 @@ if ! command -v paru &>/dev/null; then
   makepkg -si --noconfirm
   cd ..
   rm -rf paru
-  paru -S --noconfirm bluetui rofi-lbonn-wayland-git apple_fonts
 fi
+
+paru -S --noconfirm bluetui rofi-lbonn-wayland-git apple_fonts cava-git anyrun
 
 echo "Backuping up older config files, it will be in your home directory"
 
