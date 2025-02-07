@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-config="~/.local/share/rofi/themes/rounded-nord-dark.rasi"
+config="~/.config/rofi/powermenu/type-3/style-1.rasi"
 
 actions=$(echo -e "  Lock\n  Shutdown\n  Reboot\n$(printf '\u200A')  Suspend\n  Hibernate\n  Logout")
 

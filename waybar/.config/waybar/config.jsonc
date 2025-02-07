@@ -180,7 +180,7 @@
     "return-type": "json",
     "tooltip": true,
     "interval": 5,
-    "min-length": 8,
+    "min-length": 7,
     "max-length": 8
   },
   "idle_inhibitor": {
@@ -337,7 +337,7 @@
   "custom/power": {
     "format": " ",
     "tooltip": false,
-    "on-click": "~/.config/waybar/scripts/power-menu.sh"
+    "on-click": "~/.config/waybar/scripts/powermenu.sh"
   },
   // === Padding ===
   "custom/paddw": {
