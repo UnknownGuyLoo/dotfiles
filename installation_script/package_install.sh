@@ -32,7 +32,7 @@ while IFS= read -r pkgs || [ -n "$pkgs" ]; do
   [[ -z "$pkgs" || "$pkgs" =~ ^#.*$ ]] && continue
 
   echo "Installing: $pkgs..."
-  sudo paru -S --noconfirm --needed "$pkgs"
+  paru -S --noconfirm --needed "$pkgs"
 done <"$PARU_FILE"
 
 echo "✅ Installation complete!"
