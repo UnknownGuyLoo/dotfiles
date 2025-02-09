@@ -3,6 +3,7 @@
 # Exit immediately if a command fails
 set -e
 DOTDIR="$HOME/dotfiles"
+SCRIPTDIR="$HOME/dotfiles/installation_script"
 
 echo "Starting installation (required packages)..."
 
@@ -11,15 +12,6 @@ read -p "Do you want to update system?(recommended) (y/n): " update
 if [[ $update == "y" ]]; then
   sudo pacman -Syu --noconfirm
 fi
-# Example: Install necessary packages
-PACKAGES=("neovim" "git" "htop" "fzf" "rofi" "zsh" "kitty" "fastfetch" "hyprland" "waybar" "grim" "swww" "hyprlock" "pipewire" "bluez-utils" "brightnessctl" "pipewire-pulse" "python" "ttf-jetbrains-mono-nerd" "wireplumber")
-
-for pkg in "${PACKAGES[@]}"; do
-  echo "Installing $pkg..."
-  sudo pacman -S --noconfirm $pkg
-done
-
-echo "Installation complete!"
 
 if ! command -v paru &>/dev/null; then
   echo "Installing Paru..."
@@ -30,7 +22,10 @@ if ! command -v paru &>/dev/null; then
   rm -rf paru
 fi
 
-paru -S --noconfirm bluetui rofi-lbonn-wayland-git apple_fonts cava-git anyrun
+echo "Installing necessary packages..."
+
+cd $SCRIPTDIR
+./package_install.sh
 
 echo "Backuping up older config files, it will be in your home directory"
 
@@ -56,6 +51,6 @@ stow nvim zsh kitty hyprland cava anyrun waybar fastfetch
 
 echo "Config files are setup"
 
-sudo chsh -s /bin/zsh
+chsh -s /bin/zsh
 
 echo "done"

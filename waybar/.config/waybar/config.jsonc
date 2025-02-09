@@ -67,7 +67,7 @@
   },
   "custom/wayves": {
     "format": "{}",
-    "exec": "python ~/personal/wayves/wayves.py -o cava -i cava -a cava"
+    "exec": "python ~/.config/cava/wayves/wayves.py -o cava -i cava -a cava"
   },
   "custom/ws": {
     "format": "  ",
