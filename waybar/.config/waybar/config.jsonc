@@ -102,6 +102,7 @@
   "hyprland/window": {
     "format": "{}",
     "min-length": 5,
+    "max-length": 80,
     // === Window Titles ===
     "rewrite": {
       // == Desktop ==

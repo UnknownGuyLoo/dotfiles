@@ -22,21 +22,21 @@
 /* Module Colors */
 
 @define-color module-fg       {{foreground}};
-@define-color color1          {{color6}};
+@define-color color1          {{color5}};
 
-@define-color cpuinfo         {{color6}};
-@define-color memory          {{color7}};
-@define-color cpu             {{color8}};
+@define-color cpuinfo         {{color3}};
+@define-color memory          {{color4}};
+@define-color cpu             {{color5}};
 @define-color distro-fg       {{foreground}};
 @define-color distro-bg       {{background}};
-@define-color time            {{color8}};
-@define-color date            {{color7}};
-@define-color tray            {{color6}};
+@define-color time            {{color5}};
+@define-color date            {{color4}};
+@define-color tray            {{color3}};
 
-@define-color pulseaudio      {{color6}};
-@define-color backlight       {{color7}};
-@define-color battery         {{color9}};
-@define-color power           {{color10}};
+@define-color pulseaudio      {{color3}};
+@define-color backlight       {{color4}};
+@define-color battery         {{color5}};
+@define-color power           {{color5}};
 
 /* State Colors */
 

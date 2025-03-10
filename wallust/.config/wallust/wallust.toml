@@ -11,7 +11,7 @@
 
 # How the image is parse, in order to get the colors:
 # full - resized - wal - thumb -  fastresize - kmeans
-backend = "fastresize"
+backend = "wal"
 
 # What color space to use to produce and select the most prominent colors:
 # lab - labmixed - lch - lchmixed
@@ -23,7 +23,7 @@ color_space = "lch"
 # harddark - harddark16 - harddarkcomp - harddarkcomp16
 # softdark - softdark16 - softdarkcomp - softdarkcomp16
 # softlight - softlight16 - softlightcomp - softlightcomp16
-palette = "dark"
+palette = "dark16"
 
 # Ensures a "readable contrast" (OPTIONAL, disabled by default)
 # Should only be enabled when you notice an unreadable contrast frequently happening
@@ -41,14 +41,18 @@ check_contrast = true
 
 [templates]
 # NOTE: prefer '' over "" for paths, avoids escaping.
+#
+colors.template = "colors"
+colors.target = "~/.dotfiles/hyprland/.config/hypr/wallust.css"
+
 cava.template = "newcava"
 cava.target = "~/.config/cava/New"
 
 #kitty.template = 'colors-kitty.conf'
 #kitty.target = '~/.config/kitty/current-theme.conf'
 
-#waybar.template = 'theme.css'
-#waybar.target = '~/.config/waybar/theme.css'
+waybar.template = 'theme.css'
+waybar.target = '~/.config/waybar/theme.css'
 
 #anyrun.template = 'colors-anyrun.css'
 #anyrun.target = '~/.config/anyrun/style.css'

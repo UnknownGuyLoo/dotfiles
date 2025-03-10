@@ -6,42 +6,42 @@
 
 /* Main Colors */
 
-@define-color main-fg         #D4D8E1;
-@define-color main-bg         #00000D;
-@define-color main-br         #D4D8E1;
+@define-color main-fg         #ECF3F8;
+@define-color main-bg         #101114;
+@define-color main-br         #ECF3F8;
 
-@define-color active-bg       #00000D;
-@define-color active-fg       #D4D8E1;
+@define-color active-bg       #101114;
+@define-color active-fg       #ECF3F8;
 
-@define-color hover-bg        #00000D;
-@define-color hover-fg        #D4D8E1;
+@define-color hover-bg        #101114;
+@define-color hover-fg        #ECF3F8;
 
-@define-color white           #D4D8E1;
-@define-color black           #00000D;
+@define-color white           #ECF3F8;
+@define-color black           #101114;
 
 /* Module Colors */
 
-@define-color module-fg       #D4D8E1;
-@define-color color1          #646B80;
+@define-color module-fg       #ECF3F8;
+@define-color color1          #6C889E;
 
-@define-color cpuinfo         #646B80;
-@define-color memory          #BABECC;
-@define-color cpu             #82858F;
-@define-color distro-fg       #D4D8E1;
-@define-color distro-bg       #00000D;
-@define-color time            #82858F;
-@define-color date            #BABECC;
-@define-color tray            #646B80;
+@define-color cpuinfo         #677F94;
+@define-color memory          #4B86B1;
+@define-color cpu             #6C889E;
+@define-color distro-fg       #ECF3F8;
+@define-color distro-bg       #101114;
+@define-color time            #6C889E;
+@define-color date            #4B86B1;
+@define-color tray            #677F94;
 
-@define-color pulseaudio      #646B80;
-@define-color backlight       #BABECC;
-@define-color battery         #585788;
-@define-color power           #545A88;
+@define-color pulseaudio      #677F94;
+@define-color backlight       #4B86B1;
+@define-color battery         #6C889E;
+@define-color power           #6C889E;
 
 /* State Colors */
 
-@define-color good            #A75F9E;
-@define-color warning         #C462A6;
-@define-color critical        #828BA8;
-@define-color full            #858FAA;
-@define-color charging        #BABECC;
+@define-color good            #5F84A5;
+@define-color warning         #3C98DA;
+@define-color critical        #90B5D2;
+@define-color full            #CADCEA;
+@define-color charging        #DCE5EC;
