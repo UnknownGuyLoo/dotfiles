@@ -1,0 +1,11 @@
+[color]
+gradient = 1
+gradient_count = 6
+
+# TokyoNight Colors
+gradient_color_1 = '{{color4}}'  # Background (Dark Blue)
+gradient_color_2 = '{{color5}}'  # Medium Blue
+gradient_color_3 = '{{color6}}'  # Light Blue
+gradient_color_4 = '{{color7}}'  # Purple
+gradient_color_5 = '{{color8}}'  # Orange
+gradient_color_6 = '{{color9}}'  # F
